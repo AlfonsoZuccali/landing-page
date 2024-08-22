@@ -22,3 +22,25 @@ header{
     padding: 10px;
     align-items: center;
 }
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.first-section.right-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    flex:auto;
+
+}
+
+.first-section img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
