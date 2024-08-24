@@ -1,8 +1,33 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+}
+
+#name{
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0px;
+    color: white;
+}
+
 header{
     display: flex;
     justify-content: space-between;
     flex: auto;
     align-items: center;
+    background-color: #1f2937;
+    margin: 0px;
+
 }
 
 .right-links{
@@ -13,7 +38,8 @@ header{
 }
 
 .right-links a{
-    margin: 10px;
+    padding: 10px;
+    color: #e5e7eb;
 }
 
 .logo{
@@ -23,24 +49,53 @@ header{
     align-items: center;
 }
 
+.logo a{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
 .first-section{
     display: flex;
-    justify-content: center;
-    padding: 100px;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #1f2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
-.first-section.right-text{
+.first-section .left-text{
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
     width: 400px;
-    height: 400px;
-    flex:auto;
-
+    height: 200px;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    color: #e5e7eb;
 }
 
-.first-section img{
+.first-section.image{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 2;
+}
+
+img{
+    width: 700px;
+    height: auto;
+}
+
+button{
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
 }
