@@ -13,7 +13,7 @@ body{
     margin: 0px;
 }
 
-#name{
+.first-section h2{
     font-size: 48px;
     font-weight: bolder;
     margin: 0px;
@@ -88,7 +88,7 @@ header{
     flex-grow: 2;
 }
 
-img{
+.first-section img{
     width: 700px;
     height: auto;
     border-radius: 100px;
@@ -104,4 +104,52 @@ button{
     font-size: 15px;
     color: white;
     font-weight: bold;
+}
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.card-display{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.card-image img{
+    width: 100px;
+    height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 15px #3882f6;
+}
+
+.card-text{
+    display: flex;
+    color: #1f2937;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-basis: auto;
+    text-align: center;
+}
+
+.second-section h2{
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.card{
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
