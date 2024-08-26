@@ -179,3 +179,57 @@ button{
     font-size: 24px;
     font-weight: bold;
 }
+
+.fourth-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882f6;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fourth-section p,
+.fourth-section h1{
+    margin: 0px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: white;
+}
+
+.left h1{
+    font-weight: bold;
+}
+
+.left p{
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.sign-up button{
+    border: 2px solid;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
+}
+
+footer p{
+    margin: 0px;
+}
