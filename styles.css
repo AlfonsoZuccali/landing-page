@@ -120,11 +120,11 @@ button{
 }
 
 .card-image img{
-    width: 100px;
+    width: 150px;
     height: auto;
-    border: 5px solid #3882f6;
     border-radius: 5px;
     padding: 10px;
+    border: 5px solid #3882f6;
     box-shadow: 0 0 15px #3882f6;
 }
 
@@ -144,11 +144,38 @@ button{
 }
 
 .card{
-    width: 150px;
+    width: 200px;
     height: auto;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
+}
+
+.third-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    margin: 0px;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    flex: auto;
+}
+
+.author p{
+    font-size: 24px;
+    font-weight: bold;
 }
